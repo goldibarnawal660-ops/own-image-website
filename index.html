@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatureLens - Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>NatureLens</h2>
+        <p>Find beautiful images</p>
+    </header>
+
+    <section class="hero">
+        <h1>Discover Beautiful Images</h1>
+        <p>Search your favourite photos here</p>
+
+        <input type="text" id="search"
+            placeholder="Search nature, flowers, mountains...">
+        <button onclick="searchImages()">Search</button>
+    </section>
+
+    <main>
+        <h2 id="heading">Explore Images</h2>
+
+        <div class="gallery" id="gallery">
+
+            <div class="photo" data-name="nature forest">
+                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=600"
+                    alt="Green forest">
+                <p>Green Forest</p>
+            </div>
+
+            <div class="photo" data-name="mountains nature">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600"
+                    alt="Mountain view">
+                <p>Mountain View</p>
+            </div>
+
+            <div class="photo" data-name="flowers nature">
+                <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600"
+                    alt="Beautiful flowers">
+                <p>Beautiful Flowers</p>
+            </div>
+
+            <div class="photo" data-name="ocean beach nature">
+                <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600"
+                    alt="Ocean">
+                <p>Blue Ocean</p>
+            </div>
+
+            <div class="photo" data-name="animals wildlife">
+                <img src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=600"
+                    alt="Wildlife">
+                <p>Wildlife</p>
+            </div>
+
+            <div class="photo" data-name="city buildings">
+                <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600"
+                    alt="City buildings">
+                <p>City Lights</p>
+            </div>
+
+        </div>
+
+        <p id="message"></p>
+    </main>
+
+    <footer>
+        <p>Made by me | NatureLens © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
